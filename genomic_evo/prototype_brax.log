@@ -1,0 +1,10 @@
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+Starting Genomic Compression Experiment...
+🚀 Running 5-node distributed prototype (World Size: 1)...
+[2026-01-20 23:16:57] INFO     <84983> evotorch.core: Instance of `ShardedProblem` (id:5358677616) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-20 23:16:57] INFO     <84983> evotorch.core: Instance of `ShardedProblem` (id:5358677616) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-20 23:16:57] INFO     <84983> evotorch.core: Instance of `ShardedProblem` (id:5358677616) -- The `device` of the problem is set as mps
+[2026-01-20 23:16:57] INFO     <84983> evotorch.core: Instance of `ShardedProblem` (id:5358677616) -- The number of actors that will be allocated for parallelized evaluation is 0
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(

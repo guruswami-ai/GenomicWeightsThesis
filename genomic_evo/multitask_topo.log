@@ -1,0 +1,209 @@
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+
+======================================================================
+MULTI-SEED EXPERIMENT: TOPOLOGICAL
+Environment: ant
+Multi-task: True
+Seeds: 5 (starting from 94846)
+Generations: 100
+Experiment ID: topological_ant_multitask_20260121_222726
+======================================================================
+
+
+======================================================================
+RUN 1/5 - Seed: 94846
+======================================================================
+
+============================================================
+Starting MULTI-TASK Evolution: TOPOLOGICAL
+Tasks: forward, backward, left, right
+SEED: 94846
+============================================================
+
+[2026-01-21 22:27:27] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5087025184) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 22:27:27] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5087025184) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 22:27:27] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5087025184) -- The `device` of the problem is set as mps
+[2026-01-21 22:27:27] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5087025184) -- The number of actors that will be allocated for parallelized evaluation is 0
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+Gen   0: Avg= 202.73, Max= 221.92 | 21.28s | 3,759 steps/sec
+Gen   1: Avg= 201.90, Max= 226.65 | 8.22s | 9,736 steps/sec
+Gen   2: Avg= 200.56, Max= 231.27 | 8.22s | 9,729 steps/sec
+Gen   3: Avg= 200.43, Max= 231.54 | 8.21s | 9,750 steps/sec
+Gen   4: Avg= 200.50, Max= 241.89 | 8.24s | 9,708 steps/sec
+Gen  10: Avg= 199.80, Max= 228.68 | 8.22s | 9,734 steps/sec
+Gen  20: Avg= 196.77, Max= 242.33 | 8.21s | 9,743 steps/sec
+Gen  30: Avg= 200.50, Max= 233.82 | 8.17s | 9,791 steps/sec
+Gen  40: Avg= 202.02, Max= 240.65 | 8.17s | 9,791 steps/sec
+Gen  50: Avg= 200.63, Max= 228.62 | 8.21s | 9,750 steps/sec
+Gen  60: Avg= 202.33, Max= 241.81 | 8.23s | 9,718 steps/sec
+Gen  70: Avg= 199.50, Max= 223.63 | 8.18s | 9,776 steps/sec
+Gen  80: Avg= 199.36, Max= 228.25 | 8.22s | 9,734 steps/sec
+Gen  90: Avg= 199.12, Max= 220.35 | 8.25s | 9,700 steps/sec
+
+============================================================
+Multi-task evolution complete!
+Final fitness (avg across 4 tasks): 238.18
+Total time: 835.7s
+============================================================
+
+Run 1 complete: Final fitness = 238.18
+
+======================================================================
+RUN 2/5 - Seed: 95846
+======================================================================
+
+============================================================
+Starting MULTI-TASK Evolution: TOPOLOGICAL
+Tasks: forward, backward, left, right
+SEED: 95846
+============================================================
+
+[2026-01-21 22:41:22] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422026288) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 22:41:22] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422026288) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 22:41:22] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422026288) -- The `device` of the problem is set as mps
+[2026-01-21 22:41:22] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422026288) -- The number of actors that will be allocated for parallelized evaluation is 0
+Gen   0: Avg= 199.67, Max= 212.84 | 8.22s | 9,735 steps/sec
+Gen   1: Avg= 199.81, Max= 213.50 | 8.22s | 9,732 steps/sec
+Gen   2: Avg= 200.13, Max= 217.26 | 8.21s | 9,748 steps/sec
+Gen   3: Avg= 200.88, Max= 215.58 | 8.20s | 9,752 steps/sec
+Gen   4: Avg= 200.28, Max= 217.32 | 8.24s | 9,714 steps/sec
+Gen  10: Avg= 200.60, Max= 224.12 | 8.22s | 9,732 steps/sec
+Gen  20: Avg= 200.84, Max= 219.41 | 7.51s | 10,651 steps/sec
+Gen  30: Avg= 201.02, Max= 220.74 | 7.48s | 10,695 steps/sec
+Gen  40: Avg= 202.01, Max= 225.37 | 7.39s | 10,829 steps/sec
+Gen  50: Avg= 199.29, Max= 228.49 | 7.41s | 10,794 steps/sec
+Gen  60: Avg= 199.73, Max= 222.14 | 7.46s | 10,729 steps/sec
+Gen  70: Avg= 200.68, Max= 218.17 | 7.43s | 10,763 steps/sec
+Gen  80: Avg= 202.24, Max= 230.39 | 7.49s | 10,683 steps/sec
+Gen  90: Avg= 196.65, Max= 232.55 | 7.39s | 10,824 steps/sec
+
+============================================================
+Multi-task evolution complete!
+Final fitness (avg across 4 tasks): 223.63
+Total time: 759.4s
+============================================================
+
+Run 2 complete: Final fitness = 223.63
+
+======================================================================
+RUN 3/5 - Seed: 96846
+======================================================================
+
+============================================================
+Starting MULTI-TASK Evolution: TOPOLOGICAL
+Tasks: forward, backward, left, right
+SEED: 96846
+============================================================
+
+[2026-01-21 22:54:02] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5427390720) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 22:54:02] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5427390720) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 22:54:02] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5427390720) -- The `device` of the problem is set as mps
+[2026-01-21 22:54:02] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5427390720) -- The number of actors that will be allocated for parallelized evaluation is 0
+Gen   0: Avg= 200.09, Max= 220.75 | 7.38s | 10,833 steps/sec
+Gen   1: Avg= 199.79, Max= 217.78 | 7.51s | 10,647 steps/sec
+Gen   2: Avg= 198.41, Max= 219.31 | 7.43s | 10,764 steps/sec
+Gen   3: Avg= 200.36, Max= 219.73 | 7.45s | 10,735 steps/sec
+Gen   4: Avg= 199.81, Max= 231.31 | 7.47s | 10,712 steps/sec
+Gen  10: Avg= 202.65, Max= 235.73 | 7.48s | 10,689 steps/sec
+Gen  20: Avg= 200.41, Max= 227.92 | 7.47s | 10,714 steps/sec
+Gen  30: Avg= 198.95, Max= 231.87 | 7.48s | 10,701 steps/sec
+Gen  40: Avg= 198.00, Max= 223.84 | 7.43s | 10,764 steps/sec
+Gen  50: Avg= 202.85, Max= 237.81 | 7.43s | 10,762 steps/sec
+Gen  60: Avg= 204.26, Max= 235.17 | 7.42s | 10,778 steps/sec
+Gen  70: Avg= 198.90, Max= 244.58 | 7.43s | 10,768 steps/sec
+Gen  80: Avg= 199.14, Max= 244.46 | 7.44s | 10,758 steps/sec
+Gen  90: Avg= 198.66, Max= 232.93 | 7.43s | 10,770 steps/sec
+
+============================================================
+Multi-task evolution complete!
+Final fitness (avg across 4 tasks): 229.52
+Total time: 746.1s
+============================================================
+
+Run 3 complete: Final fitness = 229.52
+
+======================================================================
+RUN 4/5 - Seed: 97846
+======================================================================
+
+============================================================
+Starting MULTI-TASK Evolution: TOPOLOGICAL
+Tasks: forward, backward, left, right
+SEED: 97846
+============================================================
+
+[2026-01-21 23:06:28] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422746992) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 23:06:28] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422746992) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 23:06:28] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422746992) -- The `device` of the problem is set as mps
+[2026-01-21 23:06:28] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5422746992) -- The number of actors that will be allocated for parallelized evaluation is 0
+Gen   0: Avg= 200.93, Max= 218.18 | 7.46s | 10,730 steps/sec
+Gen   1: Avg= 199.74, Max= 220.33 | 7.45s | 10,741 steps/sec
+Gen   2: Avg= 200.47, Max= 219.84 | 7.43s | 10,770 steps/sec
+Gen   3: Avg= 200.45, Max= 216.87 | 7.42s | 10,776 steps/sec
+Gen   4: Avg= 200.34, Max= 221.31 | 7.48s | 10,691 steps/sec
+Gen  10: Avg= 200.42, Max= 217.47 | 7.43s | 10,772 steps/sec
+Gen  20: Avg= 199.62, Max= 225.04 | 7.50s | 10,672 steps/sec
+Gen  30: Avg= 199.41, Max= 216.08 | 7.46s | 10,723 steps/sec
+Gen  40: Avg= 202.28, Max= 223.69 | 7.55s | 10,597 steps/sec
+Gen  50: Avg= 199.82, Max= 231.30 | 7.42s | 10,784 steps/sec
+Gen  60: Avg= 200.18, Max= 233.69 | 7.40s | 10,811 steps/sec
+Gen  70: Avg= 200.32, Max= 228.34 | 7.47s | 10,715 steps/sec
+Gen  80: Avg= 198.56, Max= 226.48 | 7.46s | 10,726 steps/sec
+Gen  90: Avg= 202.00, Max= 239.11 | 7.50s | 10,661 steps/sec
+
+============================================================
+Multi-task evolution complete!
+Final fitness (avg across 4 tasks): 241.42
+Total time: 747.2s
+============================================================
+
+Run 4 complete: Final fitness = 241.42
+
+======================================================================
+RUN 5/5 - Seed: 98846
+======================================================================
+
+============================================================
+Starting MULTI-TASK Evolution: TOPOLOGICAL
+Tasks: forward, backward, left, right
+SEED: 98846
+============================================================
+
+[2026-01-21 23:18:55] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5409610192) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 23:18:55] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5409610192) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 23:18:55] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5409610192) -- The `device` of the problem is set as mps
+[2026-01-21 23:18:55] INFO     <25087> evotorch.core: Instance of `MultitaskProblem` (id:5409610192) -- The number of actors that will be allocated for parallelized evaluation is 0
+Gen   0: Avg= 200.26, Max= 230.12 | 7.45s | 10,735 steps/sec
+Gen   1: Avg= 200.34, Max= 217.36 | 7.48s | 10,698 steps/sec
+Gen   2: Avg= 200.67, Max= 229.42 | 7.42s | 10,785 steps/sec
+Gen   3: Avg= 201.86, Max= 228.04 | 7.50s | 10,670 steps/sec
+Gen   4: Avg= 200.32, Max= 225.18 | 7.44s | 10,758 steps/sec
+Gen  10: Avg= 200.20, Max= 221.34 | 7.40s | 10,815 steps/sec
+Gen  20: Avg= 199.94, Max= 233.20 | 7.45s | 10,736 steps/sec
+Gen  30: Avg= 199.42, Max= 227.77 | 7.50s | 10,671 steps/sec
+Gen  40: Avg= 200.76, Max= 217.78 | 7.43s | 10,773 steps/sec
+Gen  50: Avg= 200.87, Max= 234.58 | 7.42s | 10,785 steps/sec
+Gen  60: Avg= 202.32, Max= 227.86 | 7.40s | 10,811 steps/sec
+Gen  70: Avg= 200.29, Max= 221.37 | 7.42s | 10,777 steps/sec
+Gen  80: Avg= 200.46, Max= 219.54 | 7.52s | 10,639 steps/sec
+Gen  90: Avg= 199.97, Max= 240.51 | 7.47s | 10,717 steps/sec
+
+============================================================
+Multi-task evolution complete!
+Final fitness (avg across 4 tasks): 226.17
+Total time: 746.0s
+============================================================
+
+Run 5 complete: Final fitness = 226.17
+
+======================================================================
+EXPERIMENT COMPLETE: TOPOLOGICAL
+======================================================================
+Successful runs: 5/5
+Mean fitness: 231.78 +/- 6.88
+Max fitness: 241.42
+Min fitness: 223.63
+Results saved to: results/topological_ant_multitask_20260121_222726.json
+son

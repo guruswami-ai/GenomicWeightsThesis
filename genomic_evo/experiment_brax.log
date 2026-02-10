@@ -1,0 +1,117 @@
+🚀 Launching Distributed Prototype (Patched MLX, JACCL/RDMA) on Cluster...
+[33m[WARN] Node with rank 2 exited with code 255 [0m
+Exception in thread Thread-1 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh muladhara 'pid=$(cat /var/folders/h0/4wq3fmd14p5002y93j1z0s340000gn/T/tmp.FcoHH8NXNa); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/h0/4wq3fmd14p5002y93j1z0s340000gn/T/tmp.FcoHH8NXNa'' returned non-zero exit status 1.
+Exception in thread Thread-5 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh vishuddha 'pid=$(cat /var/folders/0h/9vpkzczj28g399kvr0mjs9yc0000gn/T/tmp.P1b8ZWbpLD); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/0h/9vpkzczj28g399kvr0mjs9yc0000gn/T/tmp.P1b8ZWbpLD'' returned non-zero exit status 1.
+Exception in thread Thread-4 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh manipura 'pid=$(cat /var/folders/rv/_8cgbq2s505_0sg08rhwczdh0000gn/T/tmp.xEiflM6ADO); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/rv/_8cgbq2s505_0sg08rhwczdh0000gn/T/tmp.xEiflM6ADO'' returned non-zero exit status 1.
+Exception in thread Thread-2 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh svadhisthana 'pid=$(cat /var/folders/27/b51w3jm12s3d2sqff4krkrq40000gn/T/tmp.6VHCCmmaaK); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/27/b51w3jm12s3d2sqff4krkrq40000gn/T/tmp.6VHCCmmaaK'' returned non-zero exit status 1.
+🏗️ Launching Full 9-Run Experiment Suite (Patched MLX, JACCL/RDMA) on Cluster...
+[33m[WARN] Node with rank 4 exited with code 255 [0m
+Exception in thread Thread-1 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh muladhara 'pid=$(cat /var/folders/h0/4wq3fmd14p5002y93j1z0s340000gn/T/tmp.ITcBCV9bIo); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/h0/4wq3fmd14p5002y93j1z0s340000gn/T/tmp.ITcBCV9bIo'' returned non-zero exit status 1.
+Exception in thread Thread-4 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh manipura 'pid=$(cat /var/folders/rv/_8cgbq2s505_0sg08rhwczdh0000gn/T/tmp.noj3B7FMvf); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/rv/_8cgbq2s505_0sg08rhwczdh0000gn/T/tmp.noj3B7FMvf'' returned non-zero exit status 1.
+Exception in thread Thread-3 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+Exception in thread Thread-2 (_thread_fn):
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    c = run(
+    self._target(*self._args, **self._kwargs)
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh anahata 'pid=$(cat /var/folders/jd/5vlz6msj0zzcgnh09h4rjq_40000gn/T/tmp.WLE8JzqXuM); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/jd/5vlz6msj0zzcgnh09h4rjq_40000gn/T/tmp.WLE8JzqXuM'' returned non-zero exit status 1.
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh svadhisthana 'pid=$(cat /var/folders/27/b51w3jm12s3d2sqff4krkrq40000gn/T/tmp.upiYtS3xeC); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/27/b51w3jm12s3d2sqff4krkrq40000gn/T/tmp.upiYtS3xeC'' returned non-zero exit status 1.
+✅ Experiment complete. Check analysis/figures/

@@ -1,0 +1,10 @@
+{
+  "hosts": [
+    "muladhara",
+    "svadhisthana",
+    "manipura",
+    "anahata",
+    "vishuddha"
+  ],
+  "n_local_devices": 1
+}

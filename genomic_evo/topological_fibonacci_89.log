@@ -1,0 +1,49 @@
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+Starting Genomic Compression Experiment...
+Random Seed: 89
+
+============================================================
+RUN CONFIGURATION (for reproducibility)
+============================================================
+  Timestamp:    2026-01-21 13:58:48 AEDT
+  Hostname:     muladhara.local
+  SEED:         89  ← CRITICAL FOR REPRODUCTION
+  Strategy:     topological
+  Generations:  20
+  Population:   50
+  Config file:  ./config_topological_89.json
+============================================================
+
+
+============================================================
+Strategy: TOPOLOGICAL
+============================================================
+
+
+============================================================
+Starting Single-Node Evolution: TOPOLOGICAL
+SEED: 89
+============================================================
+
+Solution length: 594432 parameters
+[2026-01-21 13:58:48] INFO     < 6182> evotorch.core: Instance of `BraxProblem` (id:5422400624) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 13:58:48] INFO     < 6182> evotorch.core: Instance of `BraxProblem` (id:5422400624) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 13:58:48] INFO     < 6182> evotorch.core: Instance of `BraxProblem` (id:5422400624) -- The `device` of the problem is set as mps
+[2026-01-21 13:58:48] INFO     < 6182> evotorch.core: Instance of `BraxProblem` (id:5422400624) -- The number of actors that will be allocated for parallelized evaluation is 0
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+/opt/mlx-distributed/.venv/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(

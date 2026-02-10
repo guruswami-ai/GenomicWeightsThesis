@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-01-21 13:58:48 AEDT",
+  "hostname": "muladhara.local",
+  "seed": 89,
+  "strategy": "topological",
+  "generations": 20,
+  "single_node": true,
+  "python_version": "3.12.12 (main, Jan  2 2026, 14:08:14) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "jax_version": "0.8.2",
+  "torch_version": "2.9.1",
+  "population_size": 50,
+  "stdev_init": 0.01,
+  "initial_bounds": [
+    -0.1,
+    0.1
+  ],
+  "environment": "brax_ant_v4",
+  "episode_length": 200,
+  "num_rollouts": 2,
+  "action_dim": 8,
+  "observation_dim": 27
+}

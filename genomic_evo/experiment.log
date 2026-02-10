@@ -1,0 +1,70 @@
+🚀 Launching Distributed Prototype (Patched MLX, JACCL/RDMA) on Cluster...
+Starting Genomic Compression Experiment...
+Starting Genomic Compression Experiment...
+Starting Genomic Compression Experiment...
+Starting Genomic Compression Experiment...
+[jaccl] Connection attempt 0 waiting 1000 ms
+[jaccl] Connection attempt 0 waiting 1000 ms
+[jaccl] Connection attempt 0 waiting 1000 ms
+[jaccl] Connection attempt 0 waiting 1000 ms
+Starting Genomic Compression Experiment...
+/Users/admin/genomic_evo/run_experiment.sh: line 27: 64184 Killed: 9               $LAUNCHER --hostfile $HOSTFILE --backend jaccl --python $PYTHON --env MLX_WORLD_SIZE=5 --env MLX_COORD_IP=10.61.106.31 --env MLX_JACCL_COORDINATOR="192.168.0.1:5000" ~/genomic_evo/main.py --prototype
+🏗️ Launching Full 9-Run Experiment Suite (Patched MLX, JACCL/RDMA) on Cluster...
+[33m[WARN] Node with rank 2 exited with code 255 [0m
+Exception in thread Thread-5 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+Exception in thread Thread-1 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    command.terminate()
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    raise CalledProcessError(retcode, process.args,
+    c = run(
+        ^^^^
+subprocess.CalledProcessError: Command 'ssh vishuddha 'pid=$(cat /var/folders/0h/9vpkzczj28g399kvr0mjs9yc0000gn/T/tmp.nSbe79xJwM); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/0h/9vpkzczj28g399kvr0mjs9yc0000gn/T/tmp.nSbe79xJwM'' returned non-zero exit status 1.
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh muladhara 'pid=$(cat /var/folders/h0/4wq3fmd14p5002y93j1z0s340000gn/T/tmp.I7jVf3oXgL); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/h0/4wq3fmd14p5002y93j1z0s340000gn/T/tmp.I7jVf3oXgL'' returned non-zero exit status 1.
+Exception in thread Thread-4 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh manipura 'pid=$(cat /var/folders/rv/_8cgbq2s505_0sg08rhwczdh0000gn/T/tmp.NoudMAKEQq); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/rv/_8cgbq2s505_0sg08rhwczdh0000gn/T/tmp.NoudMAKEQq'' returned non-zero exit status 1.
+Exception in thread Thread-2 (_thread_fn):
+Traceback (most recent call last):
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 208, in _thread_fn
+    command.terminate()
+  File "/opt/mlx-distributed/.venv/lib/python3.12/site-packages/mlx/_distributed_utils/launch.py", line 95, in terminate
+    c = run(
+        ^^^^
+  File "/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'ssh svadhisthana 'pid=$(cat /var/folders/27/b51w3jm12s3d2sqff4krkrq40000gn/T/tmp.GTSd1FDEBo); if ps -p $pid >/dev/null; then     kill $pid;     echo 1; else     echo 0; fi; rm /var/folders/27/b51w3jm12s3d2sqff4krkrq40000gn/T/tmp.GTSd1FDEBo'' returned non-zero exit status 1.
+✅ Experiment complete. Check analysis/figures/

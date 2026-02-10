@@ -1,0 +1,20 @@
+🚀 Launching Distributed Genomic Evolution Experiment
+  Hostfile: /opt/chakra/inference/hostfiles/chakra-tp5.json
+  Backend: JACCL (TB5 RDMA)
+
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+Starting Genomic Compression Experiment...
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+[jaccl] Connection attempt 0 waiting 1000 ms
+Starting Genomic Compression Experiment...
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+Starting Genomic Compression Experiment...
+Starting Genomic Compression Experiment...
+Starting Genomic Compression Experiment...
