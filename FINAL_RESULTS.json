@@ -1,0 +1,163 @@
+{
+  "note": "Final 5-seed statistics extracted from completed experiment files",
+  "compression_sweep": {
+    "name": "Compression Strength Sweep (Swimmer)",
+    "description": "Tests compression-variance relationship by varying hierarchical block structure",
+    "configs": {
+      "flat": {
+        "blocks": null,
+        "block_size": null,
+        "total_hidden": null,
+        "mean_fitness": 168.90,
+        "std_fitness": 2.80,
+        "cv": 0.0166
+      },
+      "hier_weak": {
+        "blocks": 32,
+        "block_size": 32,
+        "total_hidden": 1024,
+        "mean_fitness": 70.59,
+        "std_fitness": 46.62,
+        "cv": 0.6604
+      },
+      "hier_medium": {
+        "blocks": 8,
+        "block_size": 128,
+        "total_hidden": 1024,
+        "mean_fitness": 41.47,
+        "std_fitness": 2.58,
+        "cv": 0.0623
+      },
+      "hier_strong": {
+        "blocks": 4,
+        "block_size": 256,
+        "total_hidden": 1024,
+        "mean_fitness": 119.03,
+        "std_fitness": 57.23,
+        "cv": 0.4808
+      },
+      "hier_vstrong": {
+        "blocks": 2,
+        "block_size": 512,
+        "total_hidden": 1024,
+        "mean_fitness": 120.38,
+        "std_fitness": 62.68,
+        "cv": 0.5207
+      }
+    },
+    "source_file": "compression_sweep_swimmer_20260122_130147.json"
+  },
+  "benchmarks": {
+    "round1_ant": {
+      "name": "Ant (baseline)",
+      "strategies": {
+        "flat": {
+          "mean_fitness": 407.9395324707031,
+          "std_fitness": 52.67866351290809,
+          "max_fitness": 461.8983459472656,
+          "min_fitness": 306.9933166503906,
+          "num_seeds": 5,
+          "source_file": "flat_20260121_193056.json"
+        },
+        "hierarchical": {
+          "mean_fitness": 378.1750244140625,
+          "std_fitness": 30.776339216571525,
+          "max_fitness": 415.66107177734375,
+          "min_fitness": 342.2414245605469,
+          "num_seeds": 5,
+          "source_file": "hierarchical_20260121_193056.json"
+        },
+        "topological": {
+          "mean_fitness": 366.447705078125,
+          "std_fitness": 12.274564873661715,
+          "max_fitness": 388.52587890625,
+          "min_fitness": 353.34405517578125,
+          "num_seeds": 5,
+          "source_file": "topological_20260121_193056.json"
+        },
+        "cppn": {
+          "mean_fitness": 324.88,
+          "std_fitness": 44.21,
+          "max_fitness": 363.00,
+          "min_fitness": 241.70,
+          "num_seeds": 5,
+          "source_file": "cppn_ant_20260122_061559.json"
+        }
+      }
+    },
+    "round2_swimmer": {
+      "name": "Swimmer (modular)",
+      "strategies": {
+        "flat": {
+          "mean_fitness": 49.427032470703125,
+          "std_fitness": 16.00742975566139,
+          "max_fitness": 80.75633239746094,
+          "min_fitness": 37.36194610595703,
+          "num_seeds": 5,
+          "source_file": "flat_swimmer_20260121_212333.json"
+        },
+        "hierarchical": {
+          "mean_fitness": 36.84593276977539,
+          "std_fitness": 0.6971327796474724,
+          "max_fitness": 37.98217010498047,
+          "min_fitness": 36.19892501831055,
+          "num_seeds": 5,
+          "source_file": "hierarchical_swimmer_20260121_212336.json"
+        },
+        "cppn": {
+          "mean_fitness": 32.27,
+          "std_fitness": 1.45,
+          "max_fitness": 34.12,
+          "min_fitness": 30.03,
+          "num_seeds": 5,
+          "source_file": "cppn_swimmer_20260122_005901.json"
+        },
+        "topological": {
+          "mean_fitness": 31.707049942016603,
+          "std_fitness": 2.0411175513293003,
+          "max_fitness": 34.10398864746094,
+          "min_fitness": 28.876663208007812,
+          "num_seeds": 5,
+          "source_file": "topological_swimmer_20260121_212339.json"
+        }
+      }
+    },
+    "round2_multitask": {
+      "name": "Multi-task Ant",
+      "strategies": {
+        "flat": {
+          "mean_fitness": 265.0403167724609,
+          "std_fitness": 13.61568843642448,
+          "max_fitness": 276.81390380859375,
+          "min_fitness": 245.81924438476562,
+          "num_seeds": 5,
+          "source_file": "flat_ant_multitask_20260121_212342.json"
+        },
+        "cppn": {
+          "mean_fitness": 240.13,
+          "std_fitness": 6.46,
+          "max_fitness": 246.30,
+          "min_fitness": 227.61,
+          "num_seeds": 5,
+          "source_file": "cppn_ant_multitask_20260122_013606.json"
+        },
+        "hierarchical": {
+          "mean_fitness": 239.51800842285155,
+          "std_fitness": 4.279889995015512,
+          "max_fitness": 247.2010955810547,
+          "min_fitness": 235.23226928710938,
+          "num_seeds": 5,
+          "source_file": "hierarchical_ant_multitask_20260121_212343.json"
+        },
+        "topological": {
+          "mean_fitness": 231.78455505371093,
+          "std_fitness": 6.882674876936124,
+          "max_fitness": 241.42344665527344,
+          "min_fitness": 223.6343536376953,
+          "num_seeds": 5,
+          "source_file": "topological_ant_multitask_20260121_222726.json"
+        }
+      }
+    }
+  }
+}

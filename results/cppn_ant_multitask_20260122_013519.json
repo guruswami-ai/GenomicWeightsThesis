@@ -1,0 +1,42 @@
+{
+  "experiment_id": "cppn_ant_multitask_20260122_013519",
+  "strategy": "cppn",
+  "env_name": "ant",
+  "multitask": true,
+  "num_seeds": 5,
+  "num_generations": 100,
+  "start_seed": 6119,
+  "timestamp": "20260122_013519",
+  "runs": [
+    {
+      "seed": 6119,
+      "run_index": 0,
+      "success": false,
+      "error": "Unknown strategy: cppn"
+    },
+    {
+      "seed": 7119,
+      "run_index": 1,
+      "success": false,
+      "error": "Unknown strategy: cppn"
+    },
+    {
+      "seed": 8119,
+      "run_index": 2,
+      "success": false,
+      "error": "Unknown strategy: cppn"
+    },
+    {
+      "seed": 9119,
+      "run_index": 3,
+      "success": false,
+      "error": "Unknown strategy: cppn"
+    },
+    {
+      "seed": 10119,
+      "run_index": 4,
+      "success": false,
+      "error": "Unknown strategy: cppn"
+    }
+  ]
+}

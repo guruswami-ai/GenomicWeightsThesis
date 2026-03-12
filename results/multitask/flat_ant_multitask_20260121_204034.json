@@ -1,0 +1,39 @@
+{
+  "experiment_id": "flat_ant_multitask_20260121_204034",
+  "strategy": "flat",
+  "env_name": "ant",
+  "multitask": true,
+  "num_seeds": 1,
+  "num_generations": 3,
+  "start_seed": 88434,
+  "timestamp": "20260121_204034",
+  "runs": [
+    {
+      "seed": 88434,
+      "run_index": 0,
+      "final_fitness": 251.12709045410156,
+      "total_time": 33.557435274124146,
+      "avg_steps_per_sec": 10642.747669867822,
+      "fitness_curve": [
+        252.3919219970703,
+        231.46258544921875,
+        251.12709045410156
+      ],
+      "avg_fitness_curve": [
+        201.05288696289062,
+        196.99769592285156,
+        200.68276977539062
+      ],
+      "success": true
+    }
+  ],
+  "summary": {
+    "num_successful": 1,
+    "mean_fitness": 251.12709045410156,
+    "max_fitness": 251.12709045410156,
+    "min_fitness": 251.12709045410156,
+    "std_fitness": 0.0,
+    "mean_time": 33.557435274124146,
+    "mean_steps_per_sec": 10642.747669867822
+  }
+}

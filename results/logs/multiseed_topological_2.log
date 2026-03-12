@@ -1,0 +1,255 @@
+Failed to import warp: No module named 'warp'
+Failed to import mujoco_warp: No module named 'warp'
+
+======================================================================
+MULTI-SEED EXPERIMENT: TOPOLOGICAL
+Seeds: 5 (starting from 40000)
+Experiment ID: topological_20260121_193056
+======================================================================
+
+
+======================================================================
+RUN 1/5 - Seed: 40000
+======================================================================
+
+============================================================
+Starting BATCHED CPU Evolution: TOPOLOGICAL
+SEED: 40000
+JAX devices: [CpuDevice(id=0)]
+============================================================
+
+Solution length: 594432 parameters
+EvoTorch device: mps
+[2026-01-21 19:30:57] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5066453936) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 19:30:57] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5066453936) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 19:30:57] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5066453936) -- The `device` of the problem is set as mps
+[2026-01-21 19:30:57] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5066453936) -- The number of actors that will be allocated for parallelized evaluation is 0
+Population size: 50
+
+Starting evolution for 100 generations...
+(First generation includes JIT compilation - will be slower)
+
+/Users/admin/.pyenv/versions/3.12.12/lib/python3.12/site-packages/brax/io/mjcf.py:480: UserWarning: Brax System, piplines and environments are not actively being maintained. Please see MJX for a well maintained JAX-based physics engine: https://github.com/google-deepmind/mujoco/tree/main/mjx. For a host of environments that use MJX, see: https://github.com/google-deepmind/mujoco_playground.
+  warnings.warn(
+Gen   0: Avg= 193.20, Max= 235.87 | 6.58s | 3,041 steps/sec
+Gen   1: Avg= 197.18, Max= 242.41 | 2.03s | 9,865 steps/sec
+Gen   2: Avg= 202.85, Max= 247.09 | 2.00s | 9,982 steps/sec
+Gen   3: Avg= 202.44, Max= 240.36 | 1.99s | 10,026 steps/sec
+Gen   4: Avg= 205.80, Max= 274.72 | 2.00s | 9,999 steps/sec
+Gen  10: Avg= 214.92, Max= 265.76 | 1.99s | 10,038 steps/sec
+Gen  20: Avg= 238.40, Max= 328.68 | 2.01s | 9,937 steps/sec
+Gen  30: Avg= 246.79, Max= 331.64 | 2.01s | 9,931 steps/sec
+Gen  40: Avg= 247.05, Max= 343.64 | 2.00s | 10,006 steps/sec
+Gen  50: Avg= 243.33, Max= 353.34 | 2.00s | 10,003 steps/sec
+Gen  60: Avg= 237.69, Max= 308.42 | 1.99s | 10,050 steps/sec
+Gen  70: Avg= 239.34, Max= 359.36 | 2.00s | 10,017 steps/sec
+Gen  80: Avg= 242.31, Max= 319.64 | 2.01s | 9,961 steps/sec
+Gen  90: Avg= 244.17, Max= 341.95 | 2.00s | 10,022 steps/sec
+
+============================================================
+Evolution complete!
+============================================================
+   Final fitness: 330.42
+   Total time: 205.8s
+   Avg time/gen (excl. JIT): 2.00s
+   Avg steps/sec (excl. JIT): 10,004
+   Total steps: 2,000,000
+
+Run 1 complete: Final fitness = 330.42
+
+======================================================================
+RUN 2/5 - Seed: 41000
+======================================================================
+
+============================================================
+Starting BATCHED CPU Evolution: TOPOLOGICAL
+SEED: 41000
+JAX devices: [CpuDevice(id=0)]
+============================================================
+
+Solution length: 594432 parameters
+EvoTorch device: mps
+[2026-01-21 19:34:23] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364463136) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 19:34:23] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364463136) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 19:34:23] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364463136) -- The `device` of the problem is set as mps
+[2026-01-21 19:34:23] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364463136) -- The number of actors that will be allocated for parallelized evaluation is 0
+Population size: 50
+
+Starting evolution for 100 generations...
+(First generation includes JIT compilation - will be slower)
+
+Gen   0: Avg= 240.92, Max= 273.90 | 1.99s | 10,045 steps/sec
+Gen   1: Avg= 250.50, Max= 290.77 | 2.00s | 9,999 steps/sec
+Gen   2: Avg= 256.96, Max= 311.26 | 2.00s | 10,025 steps/sec
+Gen   3: Avg= 261.99, Max= 322.85 | 2.00s | 9,988 steps/sec
+Gen   4: Avg= 266.04, Max= 312.45 | 2.00s | 9,998 steps/sec
+Gen  10: Avg= 268.71, Max= 317.86 | 1.99s | 10,033 steps/sec
+Gen  20: Avg= 278.10, Max= 337.33 | 2.00s | 10,014 steps/sec
+Gen  30: Avg= 283.97, Max= 341.46 | 2.03s | 9,872 steps/sec
+Gen  40: Avg= 271.15, Max= 338.53 | 2.00s | 10,021 steps/sec
+Gen  50: Avg= 282.81, Max= 350.09 | 1.99s | 10,036 steps/sec
+Gen  60: Avg= 283.55, Max= 366.52 | 1.99s | 10,033 steps/sec
+Gen  70: Avg= 280.44, Max= 342.25 | 2.00s | 10,008 steps/sec
+Gen  80: Avg= 287.33, Max= 358.55 | 2.02s | 9,890 steps/sec
+Gen  90: Avg= 287.49, Max= 362.55 | 1.99s | 10,049 steps/sec
+
+============================================================
+Evolution complete!
+============================================================
+   Final fitness: 339.80
+   Total time: 201.3s
+   Avg time/gen (excl. JIT): 2.00s
+   Avg steps/sec (excl. JIT): 9,996
+   Total steps: 2,000,000
+
+Run 2 complete: Final fitness = 339.80
+
+======================================================================
+RUN 3/5 - Seed: 42000
+======================================================================
+
+============================================================
+Starting BATCHED CPU Evolution: TOPOLOGICAL
+SEED: 42000
+JAX devices: [CpuDevice(id=0)]
+============================================================
+
+Solution length: 594432 parameters
+EvoTorch device: mps
+[2026-01-21 19:37:44] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5368671376) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 19:37:44] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5368671376) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 19:37:44] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5368671376) -- The `device` of the problem is set as mps
+[2026-01-21 19:37:44] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5368671376) -- The number of actors that will be allocated for parallelized evaluation is 0
+Population size: 50
+
+Starting evolution for 100 generations...
+(First generation includes JIT compilation - will be slower)
+
+Gen   0: Avg= 169.12, Max= 226.11 | 1.99s | 10,069 steps/sec
+Gen   1: Avg= 174.58, Max= 211.91 | 1.99s | 10,054 steps/sec
+Gen   2: Avg= 181.06, Max= 219.01 | 2.00s | 10,015 steps/sec
+Gen   3: Avg= 186.53, Max= 218.50 | 2.00s | 10,009 steps/sec
+Gen   4: Avg= 191.25, Max= 243.30 | 2.00s | 9,986 steps/sec
+Gen  10: Avg= 208.02, Max= 241.32 | 2.00s | 9,989 steps/sec
+Gen  20: Avg= 241.55, Max= 377.00 | 2.00s | 10,002 steps/sec
+Gen  30: Avg= 243.88, Max= 304.81 | 2.02s | 9,925 steps/sec
+Gen  40: Avg= 257.85, Max= 321.81 | 1.99s | 10,027 steps/sec
+Gen  50: Avg= 266.27, Max= 345.88 | 1.99s | 10,035 steps/sec
+Gen  60: Avg= 277.36, Max= 347.79 | 2.00s | 9,996 steps/sec
+Gen  70: Avg= 287.73, Max= 374.40 | 2.00s | 10,014 steps/sec
+Gen  80: Avg= 292.05, Max= 400.54 | 2.01s | 9,932 steps/sec
+Gen  90: Avg= 297.86, Max= 392.68 | 1.99s | 10,045 steps/sec
+
+============================================================
+Evolution complete!
+============================================================
+   Final fitness: 370.59
+   Total time: 201.2s
+   Avg time/gen (excl. JIT): 2.00s
+   Avg steps/sec (excl. JIT): 10,003
+   Total steps: 2,000,000
+
+Run 3 complete: Final fitness = 370.59
+
+======================================================================
+RUN 4/5 - Seed: 43000
+======================================================================
+
+============================================================
+Starting BATCHED CPU Evolution: TOPOLOGICAL
+SEED: 43000
+JAX devices: [CpuDevice(id=0)]
+============================================================
+
+Solution length: 594432 parameters
+EvoTorch device: mps
+[2026-01-21 19:41:05] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5358809504) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 19:41:05] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5358809504) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 19:41:05] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5358809504) -- The `device` of the problem is set as mps
+[2026-01-21 19:41:05] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5358809504) -- The number of actors that will be allocated for parallelized evaluation is 0
+Population size: 50
+
+Starting evolution for 100 generations...
+(First generation includes JIT compilation - will be slower)
+
+Gen   0: Avg= 183.08, Max= 227.63 | 1.99s | 10,055 steps/sec
+Gen   1: Avg= 183.24, Max= 214.63 | 1.99s | 10,063 steps/sec
+Gen   2: Avg= 182.09, Max= 256.81 | 1.99s | 10,034 steps/sec
+Gen   3: Avg= 188.48, Max= 252.84 | 2.00s | 10,017 steps/sec
+Gen   4: Avg= 182.91, Max= 229.47 | 1.99s | 10,041 steps/sec
+Gen  10: Avg= 190.02, Max= 281.31 | 2.00s | 10,001 steps/sec
+Gen  20: Avg= 193.77, Max= 252.62 | 1.99s | 10,031 steps/sec
+Gen  30: Avg= 211.13, Max= 274.44 | 2.02s | 9,910 steps/sec
+Gen  40: Avg= 218.15, Max= 253.71 | 1.99s | 10,043 steps/sec
+Gen  50: Avg= 214.23, Max= 240.67 | 2.00s | 10,011 steps/sec
+Gen  60: Avg= 216.26, Max= 254.14 | 1.99s | 10,026 steps/sec
+Gen  70: Avg= 219.13, Max= 270.22 | 1.99s | 10,035 steps/sec
+Gen  80: Avg= 222.94, Max= 294.79 | 2.00s | 9,983 steps/sec
+Gen  90: Avg= 223.56, Max= 300.33 | 2.00s | 10,019 steps/sec
+
+============================================================
+Evolution complete!
+============================================================
+   Final fitness: 274.84
+   Total time: 201.3s
+   Avg time/gen (excl. JIT): 2.00s
+   Avg steps/sec (excl. JIT): 10,001
+   Total steps: 2,000,000
+
+Run 4 complete: Final fitness = 274.84
+
+======================================================================
+RUN 5/5 - Seed: 44000
+======================================================================
+
+============================================================
+Starting BATCHED CPU Evolution: TOPOLOGICAL
+SEED: 44000
+JAX devices: [CpuDevice(id=0)]
+============================================================
+
+Solution length: 594432 parameters
+EvoTorch device: mps
+[2026-01-21 19:44:27] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364497776) -- The `dtype` for the problem's decision variables is set as torch.float32
+[2026-01-21 19:44:27] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364497776) -- `eval_dtype` (the dtype of the fitnesses and evaluation data) is set as torch.float32
+[2026-01-21 19:44:27] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364497776) -- The `device` of the problem is set as mps
+[2026-01-21 19:44:27] INFO     <18688> evotorch.core: Instance of `BatchedBraxProblem` (id:5364497776) -- The number of actors that will be allocated for parallelized evaluation is 0
+Population size: 50
+
+Starting evolution for 100 generations...
+(First generation includes JIT compilation - will be slower)
+
+Gen   0: Avg= 217.22, Max= 326.39 | 1.99s | 10,073 steps/sec
+Gen   1: Avg= 222.15, Max= 297.12 | 1.99s | 10,036 steps/sec
+Gen   2: Avg= 220.93, Max= 277.51 | 2.00s | 10,004 steps/sec
+Gen   3: Avg= 229.84, Max= 316.12 | 1.99s | 10,047 steps/sec
+Gen   4: Avg= 219.42, Max= 292.80 | 2.00s | 10,018 steps/sec
+Gen  10: Avg= 249.49, Max= 317.48 | 2.00s | 9,985 steps/sec
+Gen  20: Avg= 260.59, Max= 336.19 | 2.00s | 10,024 steps/sec
+Gen  30: Avg= 270.70, Max= 339.08 | 2.02s | 9,913 steps/sec
+Gen  40: Avg= 266.85, Max= 335.64 | 1.99s | 10,026 steps/sec
+Gen  50: Avg= 270.63, Max= 327.49 | 2.00s | 9,999 steps/sec
+Gen  60: Avg= 269.07, Max= 395.23 | 2.00s | 10,022 steps/sec
+Gen  70: Avg= 274.39, Max= 368.45 | 2.00s | 9,993 steps/sec
+Gen  80: Avg= 279.13, Max= 377.68 | 2.02s | 9,920 steps/sec
+Gen  90: Avg= 271.90, Max= 346.32 | 2.00s | 10,002 steps/sec
+
+============================================================
+Evolution complete!
+============================================================
+   Final fitness: 353.53
+   Total time: 201.2s
+   Avg time/gen (excl. JIT): 2.00s
+   Avg steps/sec (excl. JIT): 10,001
+   Total steps: 2,000,000
+
+Run 5 complete: Final fitness = 353.53
+
+======================================================================
+EXPERIMENT COMPLETE: TOPOLOGICAL
+======================================================================
+Successful runs: 5/5
+Mean fitness: 333.84 +/- 32.46
+Max fitness: 370.59
+Min fitness: 274.84
+Results saved to: results/topological_20260121_193056.json
